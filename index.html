@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+            appId      : '604024216748374',
+            xfbml      : true,
+            version    : 'v3.3'
+            });
+            FB.AppEvents.logPageView();
+        };
+        </script>
+        
+        <script async defer 
+        src="https://connect.facebook.net/en_US/sdk.js"></script>
+    </script>
+
+    
+    <h1>TEST SITE FOR MESSENGER PLUGIN</h1>
+
+    <div class="fb-messenger-checkbox"  
+         origin="https://testrwd.nexterio.pl"
+         page_id="2299748830352403"
+         messenger_app_id="604024216748374"
+         user_ref="user111"
+         allow_login="true"
+         size="standard"
+         skin="light"
+         center_align="true">
+    </div>
+
+</body>
+</html>
